@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <header className="bg-black border-b border-purple-600 shadow-lg sticky top-0 z-50">
       <nav className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-extrabold text-purple-400">Faisal</h1>
+        <h1 className="text-2xl font-extrabold text-purple-400">M.Younas Faisal</h1>
         <ul className="flex gap-6 text-sm font-medium">
           {links.map((link) => (
             <li key={link.href}>

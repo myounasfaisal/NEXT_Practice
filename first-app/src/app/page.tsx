@@ -10,8 +10,8 @@ export const metadata = {
 export default function HomePage() {
   return (
     <section className="text-center space-y-6 animate-fade-in">
-      <h1 className="text-5xl font-bold text-purple-400 animate-pulse">
-        Hi, I'm Faisal 👋
+      <h1 className="text-5xl font-bold text-purple-400">
+        Hi, I'm <span className="text-purple-300 animate-pulse">M.Younas Faisal</span> 👋
       </h1>
       <p className="text-lg text-gray-300 max-w-2xl mx-auto">
         I build clean, fast, and scalable web applications using the MERN stack and Next.js.
