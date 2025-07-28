@@ -12,7 +12,7 @@ export default function ProjectsPage() {
 
   return (
     <section className="space-y-6 animate-fade-in">
-      <h1 className="text-4xl font-bold text-purple-300">🛠 Projects</h1>
+      <h1 className="text-4xl font-bold text-purple-300">🛠 <span className="text-purple-300 animate-pulse">Projects</span></h1>
       <div className="grid md:grid-cols-2 gap-6">
         {projects.map((proj) => (
           <div

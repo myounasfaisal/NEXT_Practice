@@ -1,13 +1,13 @@
 // src/app/contact/page.tsx
 export const metadata = {
-  title: "Contact | Faisal",
+  title: "Contact",
   description: "Contact Faisal for freelance or collaboration opportunities.",
 };
 
 export default function ContactPage() {
   return (
     <section className="space-y-6 max-w-xl mx-auto animate-fade-in">
-      <h1 className="text-4xl font-bold text-purple-300">📬 Contact Me</h1>
+      <h1 className="text-4xl font-bold text-purple-300 ">📬 <span className="text-purple-300 animate-pulse">Contact me</span></h1>
       <p className="text-gray-300">
         Got a project or just want to say hi? Reach out via email or use the form below.
       </p>
